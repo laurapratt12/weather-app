@@ -22,6 +22,10 @@ li {
   margin-bottom: 5px;
   padding: 0;
 }
+a {
+  text-decoration: none;
+}
+
 li:first-letter {
   text-transform: capitalize;
 }
@@ -32,7 +36,6 @@ li:first-letter {
   border: 1px solid #dadde1;
   border-radius: 5px;
 }
-
 .overview {
   margin-bottom: 20px;
 }
@@ -59,4 +62,10 @@ li:first-letter {
   line-height: 1;
   position: relative;
   top: -22px;
+}
+.weather-temperature .active {
+  color: #272142;
+  cursor: default;
+}
+.weather-temperature .active:hover {
 }
